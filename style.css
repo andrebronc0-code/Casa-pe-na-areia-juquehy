@@ -153,11 +153,16 @@ iframe {
     justify-content: center;
     gap: 15px;
 }
+.container-botoes a {
+
+    text-decoration: none;
+}
 
 .container-botoes img {
     width: 50px;
     transition: transform 0.3s ease;
-    cursor: pointer;
+    cursor: pointer; 
+    display: block;
 }
 
 .container-botoes img:hover {
